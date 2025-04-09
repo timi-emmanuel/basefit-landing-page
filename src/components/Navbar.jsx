@@ -8,7 +8,9 @@ const items = ['Home', 'Tokens', 'Learn', 'About']
 
 const Navbar = () => {
  return ( 
-  <div className="w-full h-20 flex items-center font-basefit bg-[#0D1A2D]">
+  <div className="w-full h-20 flex items-center font-basefit bg-[#051626]/[95%] relative">
+    <div className='w-4/5 h-48 absolute bg-[#33CAD5]/[18%]  left-1/2 -translate-x-1/2  rounded-full -z-10'>
+    </div>
     <div className="flex justify-between w-[95%] md:w-[90%] items-center mx-auto ">
        <img src={logo} alt="logo icon" className='w-24 h-10'/>
        <ul className='text-white md:flex justify-between font-medium items-center gap-10 hidden'>{items.map((item,index)=>(
