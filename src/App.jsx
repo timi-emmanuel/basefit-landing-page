@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar'
-// import Hero from './components/Hero'
+import Hero from './components/Hero'
 // import Features from './components/Features'
 // import NFTCollection from './components/NFTCollection'
 // import Tokenomics from './components/Tokenomics'
@@ -10,8 +10,9 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div >      
-      <Navbar />      
+    <div className="bg-[url('/src/assets/bg-image-desktop.svg')]">      
+      <Navbar />  
+      <Hero/>
     </div>
   )
 }
